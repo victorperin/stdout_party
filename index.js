@@ -7,7 +7,7 @@ function random (low, high) {
 }
 
 function writeText(text, timing){
-    exec("toilet -f bigmono12 -w 200 "+text, function(error, stdout, stderr){
+    exec("figlet -f bigmono12 -w 200 "+text, function(error, stdout, stderr){
       process.stdout.write('\033c');
 
       process.stdout.write(stdout.toString().random + '\r');
