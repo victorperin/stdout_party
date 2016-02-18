@@ -1,0 +1,30 @@
+{
+  "name": "stdout_party",
+  "version": "1.0.0",
+  "description": "Party from stdout",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorperin/stdout_party.git"
+  },
+  "keywords": [
+    "stdout",
+    "party",
+    "cli",
+    "exibit",
+    "fun"
+  ],
+  "author": "Victor Perin",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/victorperin/stdout_party/issues"
+  },
+  "homepage": "https://github.com/victorperin/stdout_party#readme"
+}
